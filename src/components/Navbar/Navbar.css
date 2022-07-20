@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Hubballi&family=Mochiy+Pop+One&family=Red+Hat+Mono:ital,wght@0,400;1,700&family=Roboto+Slab:wght@500&family=Teko:wght@300&display=swap');
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    border-top: 12px solid black;
+    padding-top: 1%;
+}
+
+nav div img{
+    height: 55px;
+    margin-top: 5%;
+    margin: 0px 0px -20% 0px;
+    border-radius: 10%;
+}
+.navItemsContainer{
+    width: 60%;
+}
+
+nav div button{
+    border: none;
+    background-color: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: 600;
+    margin: 0px 0px 2% 0px;
+    font-size: 7px;
+}
+
+.navbarImgContainer{
+    width: 15%;
+}
+
+.bottomBarNav{
+    background-color: black;
+    z-index: 10;
+    height: 15px;
+    width: 100%;
+}
+
+/*------------MEDIA QUERYS----------*/
+
+@media (min-width:470px) {
+    .Navbar{
+        border-top: 13px solid black;
+    }
+
+    nav div img{
+        height: 60px;
+        margin-left:10%;
+    }
+    nav div button{
+        font-size: 9px;
+        margin: 0px 0px 2% 0px;
+    }
+    .bottomBarNav{
+        height: 24px;
+    }
+}
+
+@media (min-width:700px) {
+    .Navbar{
+        border-top: 15px solid black;
+    }
+
+    nav div img{
+        height: 65px;
+    }
+
+    nav div button{
+        font-size: 11px;
+        margin: 0px 2% 2% 0px;
+    }
+    .bottomBarNav{
+        height: 32px;
+    }
+}
+
+@media (min-width:800px) {
+    .Navbar{
+        border-top: 17px solid black;
+    }
+    nav div button{
+        font-size: 13px;
+        margin: 0px 2% 2% 0px;
+    }
+    .bottomBarNav{
+        height: 32px;
+    }
+}
+
+@media (min-width:1000px) {
+
+    .Navbar{
+        border-top: 22px solid black;
+    }
+    nav div img{
+        height: 100px;
+    }
+
+    nav div button{
+        font-size: 16px;
+        margin: 0px 2% 2% 0px;
+    }
+
+    .bottomBarNav{
+        height: 50px;
+    }
+}
+
+@media (min-width:1300px) {
+
+    .Navbar{
+        border-top: 30px solid black;
+    }
+    nav div img{
+        height: 100px;
+    }
+
+    nav div button{
+        font-size: 20px;
+        margin: 0px 2% 2% 0px;
+    }
+
+    .bottomBarNav{
+        height: 70px;
+    }
+}
+
