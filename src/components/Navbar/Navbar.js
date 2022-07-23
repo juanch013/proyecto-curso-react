@@ -1,4 +1,6 @@
 import './Navbar.css'
+import '../CartWidget/CartWidget'
+import CartWidget from '../CartWidget/CartWidget'
 
 const Navbar = () => {
     return(
@@ -13,12 +15,7 @@ const Navbar = () => {
             <button>Sucursales</button>
             <button>Contacto</button> 
         </div> 
-        <div className="navCartContainer">
-            <div className="cartWidgetContainer">
-                <img src="images/cart.png" alt="carro"/>
-                <span>5</span>
-            </div>
-        </div>
+        <CartWidget/>
     </nav>
     <div className="bottomBarNav">
 

@@ -41,23 +41,6 @@ nav div button{
     height: 15px;
     width: 100%;
 }
-.cartWidgetContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    margin-right: 20%;
-    object-fit: contain;
-    margin-top: -12px;
-}
-
-.cartWidgetContainer img{
-    height: 30px;
-}
-.cartWidgetContainer span{
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-size: 10px;
-}
 
 /*------------MEDIA QUERYS----------*/
 
