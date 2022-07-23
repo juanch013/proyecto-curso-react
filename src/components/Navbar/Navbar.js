@@ -13,8 +13,11 @@ const Navbar = () => {
             <button>Sucursales</button>
             <button>Contacto</button> 
         </div> 
-        <div>
-
+        <div className="navCartContainer">
+            <div className="cartWidgetContainer">
+                <img src="images/cart.png" alt="carro"/>
+                <span>5</span>
+            </div>
         </div>
     </nav>
     <div className="bottomBarNav">
